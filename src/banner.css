@@ -1,0 +1,40 @@
+.video-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner .tagline {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between cat and text */
+  margin-bottom: 20px;
+}
+
+.banner h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.banner .connect-btn {
+  background: #ff0080;
+  border: none;
+  padding: 12px 24px;
+  color: #fff;
+  border-radius: 50px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.banner .connect-btn:hover {
+  background: #e60073;
+}
